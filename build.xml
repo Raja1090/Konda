@@ -10,7 +10,7 @@
 	<target name="init">
 		<mkdir dir="build/classes"/>
 		<mkdir dir="dist" />
-		<mkdir dir="WebContent/WEB-INF" />
+		<mkdir dir="WebContent/WEB-INF/web.xml" />
 		<mkdir dir="src" />
 	</target>
 	
