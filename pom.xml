@@ -1,58 +1,25 @@
-<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 
--<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <groupId>1.0</groupId>
+  <artifactId>1.0</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
-<modelVersion>4.0.0</modelVersion>
+  <name>1.0</name>
+  <url>http://maven.apache.org</url>
 
-<groupId>com.efsavage</groupId>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 
-<artifactId>hello-world-war</artifactId>
-
-<version>1.0.0</version>
-
-<packaging>war</packaging>
-
-<name>Hello World Web Application Repository</name>
-
-<description>Simplest possible Java Webapp</description>
-
-
--<build>
-
-
--<plugins>
-
-
--<plugin>
-
-<groupId>org.mortbay.jetty</groupId>
-
-<artifactId>jetty-maven-plugin</artifactId>
-
-<version>8.1.5.v20120716</version>
-
-
--<configuration>
-
-<scanIntervalSeconds>0</scanIntervalSeconds>
-
-</configuration>
-
-</plugin>
-
-
--<plugin>
-
-<groupId>org.apache.maven.plugins</groupId>
-
-<artifactId>maven-war-plugin</artifactId>
-
-<version>2.1.1</version>
-
-</plugin>
-
-</plugins>
-
-</build>
-
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
