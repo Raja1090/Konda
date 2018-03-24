@@ -1,6 +1,7 @@
-<project ...>
+<project>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mkyong</groupId>
 	<artifactId>Maven Example</artifactId>
 	<packaging>war</packaging>
-	...
+
+</project>
